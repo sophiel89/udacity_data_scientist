@@ -10,7 +10,8 @@
 
 ## Installation <a name="installation"></a>
 
-I used Anaconda Navigator 2.5.1 for this project. It included Python 3.11.5. 
+Anaconda Navigator 2.5.1 (including python 3.11.5)
+Additional libraries: geopandas
 
 ## Project Motivation<a name="motivation"></a>
 
