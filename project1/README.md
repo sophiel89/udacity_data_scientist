@@ -26,6 +26,7 @@ The files used for this analyis are available under the following link: http://i
 
 ## File Descriptions <a name="files"></a>
 
+Data contains data scrapes from Berlin and Munich for September 2023 and December 2022 with listings, geographical data, data on prices etc. 
 
 
 ## Results<a name="results"></a>
