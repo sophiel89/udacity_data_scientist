@@ -17,10 +17,9 @@ Additional libraries: geopandas
 
 I used publicly available Airbnb data from Munich and Berlin to answer the following questions:
 
-1. XXX
-2. XXX
-3. XXX
-4. XXX
+1. What are the main characteristics of Airbnb listings in Munich and Berlin?
+2. Do prices for rental units differ significantly between both cities?
+3. Do current government regulations and policies impact the development of Airbnb offers?
 
 
 The files used for this analyis are available under the following link: http://insideairbnb.com/get-the-data/
@@ -31,8 +30,8 @@ The files used for this analyis are available under the following link: http://i
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](XXXXXXXXXX).
+The main findings of the code can be found at the post available [here](chttps://medium.com/@solu1603/airbnb-in-munich-vs-berlin-a-data-driven-comparison-a593e4316692).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Thank you Airbnb for making the data available to public. Licensing and other information on the data can be found [here] (http://insideairbnb.com/get-the-data/).
+Thank you Airbnb for making the data available to public. Licensing and other information on the data can be found [here] (http://insideairbnb.com/get-the-data/). Also thanks to Udacity GPT for helping me with various syntax errors. 
