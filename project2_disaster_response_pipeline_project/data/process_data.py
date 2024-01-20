@@ -47,7 +47,8 @@ def clean_data(df):
 
 def save_data(df, database_filename):
 # export data and save it in sqlite db
-    engine = create_engine('sqlite:///data_processed_etl.db')
+    engine = create_engine('sqlite:///data//data_processed_etl.db')
+    engine.execute("DROP TABLE IF EXISTS data_processed_etl")
     df.to_sql('data_processed_etl', engine, index=False)
 
 

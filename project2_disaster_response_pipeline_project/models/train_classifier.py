@@ -125,9 +125,9 @@ def build_model():
                         ])
 
     parameters = {
-                    'clf__estimator__n_estimators': [50, 100, 200],
-                    'clf__estimator__min_samples_split': [2, 3, 4],
-                    'features__text_transformer__vect__ngram_range': [(1, 1), (1, 2)]
+                    'tfidf__use_idf': [True, False],
+                    'clf__estimator__n_estimators': [40, 50],
+                    'clf__estimator__min_samples_leaf':[2, 5],
                     }
 
     # create grid search object
