@@ -61,7 +61,7 @@ The following files were used/created throughout the project:
         |- disaster_categories.csv  # data to process 
         |- disaster_messages.csv  # data to process
         |- process_data.py
-        |- InsertDatabaseName.db   # database to save clean data to
+        |- data_processed_etl.db   # database to save clean data to
 
     - models
         |- train_classifier.py
