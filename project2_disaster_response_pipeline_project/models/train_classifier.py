@@ -20,7 +20,7 @@ from sqlalchemy import create_engine
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
-from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score
+from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score, classification_report
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.multioutput import MultiOutputClassifier
@@ -157,12 +157,15 @@ def evaluate_model(model, X_test, Y_test, category_names):
             f1 = f1_score(Y_test_col, Y_pred_col, average='weighted')
         else:
             f1 = 0.0
+        report = classification_report(Y_test_col, Y_pred_col)
+
 
         print("Column Name:", column_name)
         print("Labels:", labels)
-        print("Confusion Matrix:\n", confusion_mat)
-        print("Accuracy:", accuracy)
-        print("F1 Score:", f1)
+        #print("Confusion Matrix:\n", confusion_mat)
+        #print("Accuracy:", accuracy)
+        #print("F1 Score:", f1)
+        print("Classification Report", report)
         print("\n")
 
 
