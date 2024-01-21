@@ -59,26 +59,7 @@ The following libraries are used, most of them are already included in Anaconda.
 
 ## File Descriptions <a name="files"></a>
 
-The following files were used/created throughout the project: 
-
-    - app
-        | - template
-            | |- master.html  # starting page of web app
-            | |- go.html  # result page of web app
-        |- run.py  # Flask file running the app
-
-    - data
-        |- disaster_categories.csv  # data to process 
-        |- disaster_messages.csv  # data to process
-        |- process_data.py # ETL pipeline to process data
-
-    - models
-        |- train_classifier.py # machine learning pipeline training the model
-
-    - screenshots
-        |- app.png
-
-    - README.md
+The following input files were used/created throughout the project: 
 
 ~~~~~~~
         project2_disaster_response_pipeline_project
@@ -97,6 +78,12 @@ The following files were used/created throughout the project:
                 |-- app.png
           |-- README.md
 ~~~~~~~
+
+The following output files are created when running the project: 
+
+    data_processed_etl.db >> sqlite database containing preprossessed data after running process_data.py
+    classifier.pkl >> resulting machine learning model after running train_classifier.py
+
 ## Project Motivation<a name="motivation"></a>
 
 Second project of Udacity Nanodegree "Data Scientist".
