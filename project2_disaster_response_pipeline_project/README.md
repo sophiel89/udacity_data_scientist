@@ -1,5 +1,26 @@
 # Disaster Response Pipeline Project
 
+![Picture](screenshots/app.png)
+
+
+### Table of Contents
+
+1. [Project Summary](#summary)
+2. [Installation](#installation)
+3. [Project Motivation](#motivation)
+4. [File Descriptions](#files)
+5. [Results](#results)
+6. [Licensing, Authors, and Acknowledgements](#licensing)
+
+
+## Project Summary<a name="summary"></a>
+
+This is the second project of Udacity Nanodegree "Data Scientist".
+The data for this project was was provided by [Figure Eight](https://www.figure-eight.com/) and contains emergency messages from the past and categories for the respective messages (e.g. fire, flood, child alone, etc.).
+I used this data (messages and repective categories) to train a machine learning pipeline for the categorization of new emergency messages coming in. 
+The resulting model was then visualized using a web app in order to make it more accessible. The web app contains a user interface where the user (e.g. emergency staff) can enter a new emergency message and receives a categorization based on the machine learning model immediately. 
+This project is of very high relevance, not only in theory but in real life as it can literally save lifes. In case of an emergency every second counts and processes need to be automated to a maximum. Reducing the time between an incoming emergency message and help arriving is crucial here. This model can help to accomplish that. 
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
@@ -13,13 +34,6 @@
 
 3. Go to http://0.0.0.0:3001/
 
-### Table of Contents
-
-1. [Installation](#installation)
-2. [Project Motivation](#motivation)
-3. [File Descriptions](#files)
-4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
 
