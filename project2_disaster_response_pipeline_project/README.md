@@ -88,7 +88,9 @@ The following output files are created when running the project:
 
 ## Results<a name="results"></a>
 
-After running the three python files 1) process_data.py 2) train_classifier.py and 3) run.py including the relevant information on input and output paths the user should receive the url to open the web app containing some visualizations on the starting page. 
+After running the steps described in the last chapter the user can open the web app and can use the application. After typing in a message and clicking on "Classify Message" a page opens with the matching categories marked in green, see screenshot: 
+
+![Picture2](screenshots/result.png)
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
