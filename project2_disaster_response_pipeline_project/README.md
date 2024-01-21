@@ -7,8 +7,8 @@
 
 1. [Project Summary](#summary)
 2. [Installation](#installation)
-3. [Project Motivation](#motivation)
-4. [File Descriptions](#files)
+3. [File Descriptions](#files)
+4. 
 5. [Results](#results)
 6. [Licensing, Authors, and Acknowledgements](#licensing)
 
@@ -37,8 +37,8 @@ This project is of very high relevance, not only in theory but in real life as i
 
 ## Installation <a name="installation"></a>
 
-Anaconda Navigator 2.5.1 (including python 3.11.5)
-Libraries used throughout the project: 
+I used Anaconda Navigator 2.5.1 (including python 3.11.5) throughout this project. 
+The following libraries are used, most of them are already included in Anaconda.  
 
     Data Preparation
         - sys
@@ -56,10 +56,6 @@ Libraries used throughout the project:
         - joblib
         - flask
 
-## Project Motivation<a name="motivation"></a>
-
-Second project of Udacity Nanodegree "Data Scientist".
-Topic: Use data provided by "Figure Eight" containing emergency messages and categories for the relevant messages to train a machine learning pipeline. The trained model should then be applied to categorize new emergency messages, to facilitate and speed up the process to find adequate help in an emergency. The last step is building a web user interface where an emergency message can be entered which es then categorized based on the machine learning model built before. 
 
 ## File Descriptions <a name="files"></a>
 
@@ -82,6 +78,12 @@ The following files were used/created throughout the project:
         |- classifier.pkl  # saved model 
 
     - README.md
+
+## Project Motivation<a name="motivation"></a>
+
+Second project of Udacity Nanodegree "Data Scientist".
+Topic: Use data provided by "Figure Eight" containing emergency messages and categories for the relevant messages to train a machine learning pipeline. The trained model should then be applied to categorize new emergency messages, to facilitate and speed up the process to find adequate help in an emergency. The last step is building a web user interface where an emergency message can be entered which es then categorized based on the machine learning model built before. 
+
 
 ## Results<a name="results"></a>
 
