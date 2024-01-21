@@ -79,6 +79,28 @@ The following files were used/created throughout the project:
 
     - README.md
 
+~~~~~~~
+        project2_disaster_response_pipeline_project
+          |-- app
+                |-- templates
+                        |-- go.html
+                        |-- master.html
+                |-- run.py
+          |-- data
+                |-- disaster_categories.csv
+                |-- disaster_message.csv
+                |-- process_data.py
+          |-- models
+                |-- train_classifier.py
+          |-- Preparation
+                |-- categories.csv
+                |-- ETL Pipeline Preparation.ipynb
+                |-- ETL_Preparation.db
+                |-- messages.csv
+                |-- ML Pipeline Preparation.ipynb
+                |-- README
+          |-- README
+~~~~~~~
 ## Project Motivation<a name="motivation"></a>
 
 Second project of Udacity Nanodegree "Data Scientist".
