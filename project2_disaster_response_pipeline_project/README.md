@@ -5,7 +5,7 @@
 
 ### Table of Contents
 
-1. [Project Summary](#summary)
+1. [Introduction](#introduction)
 2. [Installation](#installation)
 3. [File Descriptions](#files)
 4. [Instructions](#instructions)
@@ -13,7 +13,7 @@
 6. [Licensing, Authors, and Acknowledgements](#licensing)
 
 
-## Project Summary<a name="summary"></a>
+## Introduction<a name="introduction"></a>
 
 This is the second project of Udacity Nanodegree "Data Scientist".
 The data for this project was was provided by [Figure Eight](https://www.figure-eight.com/) and contains emergency messages from the past and categories for the respective messages (e.g. fire, flood, child alone, etc.).
@@ -67,7 +67,7 @@ The following input files were used/created throughout the project:
 
 The following output files are created when running the project: 
 
-    data_processed_etl.db >> sqlite database containing preprossessed data after running process_data.py
+    data_processed_etl.db >> sqlite database containing preprocessed data after running process_data.py
     classifier.pkl >> resulting machine learning model after running train_classifier.py
 
 
