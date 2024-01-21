@@ -17,6 +17,15 @@ from sqlalchemy import create_engine
 
 
 def load_data(messages_filepath, categories_filepath):
+
+    """
+    Arguments:
+        messages_filepath = path to inout file 'disaster_messages.csv'
+        categories_filepath = path to inout file 'disaster_categories.csv'
+    Returns:
+        df = Dataframe containing the preprocessed data from both inout tables
+    """
+
     # load messages and cagtegories datasets from csv filepaths
     messages = pd.read_csv(messages_filepath)
     categories = pd.read_csv(categories_filepath)
@@ -38,18 +47,43 @@ def load_data(messages_filepath, categories_filepath):
         categories[column] = categories[column].str[-1].astype(int)
 
     df = pd.concat([messages, categories], axis = 1)
+
     return df
 
 def clean_data(df):
-#drop duplicate rows from database_filepath
+
+    """
+    Arguments:
+        df = Dataframe created in load_data function
+    Returns:
+        df = Dataframe after processing data cleaning steps
+    """
+
+    print("{} rows before removing duplicates".format(df.shape[0]))
+    #drop duplicate rows from database_filepath
     df.drop_duplicates(inplace=True)
+    print("{} rows after removing duplicates".format(df.shape[0]))
+
+    print("{} rows before removing non binary values".format(df.shape[0]))
+    #the column "related" contains 188 non-binary values. Rows are dropped.
+    df = df[df['related'] != 2]
+    df.reset_index(drop=True, inplace=True)
+    print("{} rows after removing non binary values".format(df.shape[0]))
+
     return df
 
 def save_data(df, database_filename):
+
+    """
+    Arguments:
+        df = Dataframe containing preprocessed and cleaned data
+        database_filename = name of sqlite database to be saved
+    """
+
 # export data and save it in sqlite db
-    engine = create_engine('sqlite:///data//data_processed_etl.db')
+    engine = create_engine('sqlite:///' + database_filename)
     engine.execute("DROP TABLE IF EXISTS data_processed_etl")
-    df.to_sql('data_processed_etl', engine, index=False)
+    df.to_sql('data_processed_etl', engine, index=False, if_exists='replace')
 
 
 def main():
