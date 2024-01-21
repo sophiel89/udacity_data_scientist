@@ -67,7 +67,7 @@ The following input files were used/created throughout the project:
 
 The following output files are created when running the project: 
 
-    data_processed_etl.db >> sqlite database containing preprossessed data after running process_data.py
+    data_processed_etl.db >> sqlite database containing preprocessed data after running process_data.py
     classifier.pkl >> resulting machine learning model after running train_classifier.py
 
 
