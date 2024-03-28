@@ -41,7 +41,7 @@ Input Data:
 <<<<<<< HEAD
 The main findings of the code can be found summarized in a blogpost on Medium handed in separately as part of the capstone project.
 =======
-The main findings of the code can be found summarized in a blogpost on Medium under the following link: https://medium.com/@solu1603/starbucks-discount-campaigns-a-data-driven-approach-to-create-more-targeted-offers-for-members-7d6f61b60005.
+The main findings of the code can be found summarized in a blogpost on Medium under the following link: https://medium.com/@solu1603/starbucks-discount-campaigns-a-data-driven-approach-to-create-more-targeted-offers-for-members-7d6f61b60005
 >>>>>>> 94460ede98af588288d521c6fa2a4047729401f9
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
